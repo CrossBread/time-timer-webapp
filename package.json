@@ -4,26 +4,25 @@
   "description": "",
   "scripts": {
     "build": "gulp build",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Warn: no test specified\" && exit 1",
     "serve": "gulp serve"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.2.1",
+    "jquery": "^3.6.0",
     "jquery-ui": "^1.12.1",
     "progressbar.js": "^1.0.1"
   },
   "devDependencies": {
-    "brfs": "^1.4.3",
-    "browser-sync": "^2.18.8",
-    "browserify": "^14.1.0",
-    "del": "^2.2.2",
-    "gulp": "^3.9.1",
-    "gulp-sequence": "^0.4.6",
+    "brfs": "^2.0.2",
+    "browser-sync": "^2.26.14",
+    "browserify": "^17.0.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
     "packageify": "^1.0.0",
     "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-source-stream": "^2.0.0"
   },
   "browser": {
     "jquery-ui-effects": "./node_modules/jquery-ui/ui/effect.js"
